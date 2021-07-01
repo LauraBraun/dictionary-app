@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Result from "./Result"; 
+import "./Search.css"
 
 export default function Search () {
     const [word, setWord] = useState("");
@@ -21,10 +22,11 @@ export default function Search () {
     }
     
     return(<div className="Search">
+        <section>
         <form onSubmit={handleSearch}>
-            <input type="search" placeholder="search for word" onChange={handleWord} />
-            <input type="submit" value="Search"/>
+            <input className="input" type="search" placeholder="Search for a word" onChange={handleWord} />
         </form>
+        </section>
         <Result info={result}/>
     </div>)
 }

@@ -7,7 +7,8 @@ function App() {
       <div className= "container">
       <header className="App-header">
       <i className="fas fa-book-reader"></i>
-      <h1 className="mb-5">Dictionary</h1>
+      <h1>DICTIONARY</h1>
+      <h3 className="mb-5">Knowledge is power</h3>
       </header>
       <Search />
       <br />

@@ -1,10 +1,18 @@
+body {
+  background-color: #829cb1;
+}
 .App {
   text-align: center;
 }
 
 .App i {
-  color: blueviolet;
+  color: #fafbfb;
   font-size: 60px;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.App footer {
+  font-weight: 500;
+  margin-bottom: 50px;
 }
